@@ -1,0 +1,380 @@
+﻿html {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    font-family: 'Segoe UI';
+    margin: 0px;
+}
+
+/*HEADER*/
+.headerLinksContainer {
+    font-family: 'Segoe UI';
+    height: 46px;
+}
+
+.headerLinksContainer {
+    font-family: "Segoe UI";
+    height: 46px;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navcontainer {
+    background: #1A1A1F;
+}
+
+.headerLinksUL {
+    float: left;
+    font-size: 12px;
+    color: #ffffff;
+    list-style-type: none;
+    border-left: 1px solid #fff;
+    padding-left: 30px;
+}
+
+.headerLinksLI {
+    float: left;
+    margin-right: 24px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo-container {
+    float: left;
+    height: 46px;
+}
+
+    .logo-container img {
+        float: left;
+        height: 65px;
+        margin-top: -10px;
+    }
+
+    .hamburger-icon {
+        visibility: hidden;
+    }
+
+.headerLinksA {
+    color: #dedede;
+    text-decoration: none;
+}
+
+.headerLinksA:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.headerLinkAzDev {
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: -2px;
+    margin-right: 24px;
+}
+
+    .headerLinkAzDev .headerLinksA {
+        color: #fff;
+        text-decoration: none;
+    }
+
+/*FOOTER*/
+.footerLinksContainer {
+    font-family: 'Segoe UI';
+    width: 100%;
+    height: 46px;
+    background: #1A1A1F;
+}
+
+.footerLinksUL {
+    float: right;
+    width: auto;
+    font-size: 12px;
+    color: #ffffff;
+    list-style-type: none;
+}
+
+.footerLinksLI {
+    float: left;
+    margin-right: 24px;
+}
+
+.footerLinksA {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+copyright {
+    color: #ffffff;
+    margin-left: 60px;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.minheight-100 {
+    min-height: 100%;
+}
+
+.bold-font {
+    font-family: 'segoeUI_B';
+}
+
+.error-wrapper {
+    margin-top: 80px;
+}
+
+.container {
+    padding: 0 50px;
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-container-section {
+    background-color: #ffffff;
+    overflow: hidden;
+    padding: 48px 0;
+    width: 100%;
+}
+
+.top-container {
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+.mid-container-section {
+    background-color: #fbfbfb;
+}
+
+.mid-container {
+    max-width: 1310px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+/*TOP SECTION*/
+/*NOT BEING USED*/
+.top-section {
+    padding: 50px 50px 20px 50px;
+    overflow: auto;
+}
+
+.top-left-section {
+    position: relative;
+    float: left;
+    width: 50%;
+    /*left: -50%;*/
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0078D4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.heading1 {
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.blurb {
+    font-size: 18px;
+}
+
+.findeventbtn-container {
+    margin-top: 50px;
+}
+
+.findeventbtn {
+    background-color: #0078d4;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    min-width: 192px;
+    padding: 5px 15px 8px;
+    cursor: pointer;
+}
+
+.learnmore-container {
+    margin-top: 50px;
+}
+
+.learnmore-link {
+    margin-top: 50px;
+    font-size: 18px;
+    color:#0078D4;
+}
+
+.top-right-section {
+    position: relative;
+    float: right;
+    width: 50%;
+    /*left: 50%;*/
+}
+
+    .top-right-section img {
+        max-width: 100%;
+        /*float: right;*/
+        height: auto;
+    }
+
+.hero-img {
+    /*width: 600px;*/
+}
+
+/*MID SECTION*/
+/*NOT BEING USED*/
+.mid-section {
+    background-color:#fbfbfb;
+    padding: 5px 50px 50px 50px;
+    margin-top: 50px;
+}
+
+.heading2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.map-section {
+    padding-top:20px;
+    margin: auto;
+}
+
+#myMap {
+    height: 400px;
+}
+
+.eventsList {
+    padding-top: 50px;
+    margin: auto;
+    width: 100%;
+}
+
+.eventsList td, th {
+    padding: 8px;
+    line-height: 1.4285;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.mid-section-text {
+}
+
+/*DRAW RULES PAGE*/
+.drawRulesTitle {
+    font-size: 30px;
+    font-weight: 600;
+    color: #0078D4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.drawRulesTitle a {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0078D4;
+}
+
+.sectionTitle {
+    font-weight:bold;
+}
+
+
+
+@media only screen and (max-width:620px) {
+    /* For mobile phones: */
+    .headerLinksContainer {
+        max-width: 100%;
+    }
+    
+    .top-right-section, .top-left-section, .logo-container {
+        width: 100%;
+        float: none;
+    }
+
+    .hamburger-icon {
+        visibility: visible;
+    }
+
+    .hamburger-icon img {
+        height: 50%;
+        float: right;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .headerLinksUL {
+        visibility: hidden;
+        display: none;
+        list-style-type: none;
+        padding: 0px;
+        border-bottom: 1px solid #fff;
+        font-size: 12px;
+        color: #ffffff;
+        float: left;
+        width: 100%;
+        border-left: none;
+        margin: 0px auto;
+    }
+
+    .headerLinksLI {
+        margin: 0px;
+        padding: 0px;
+        background-color: #3e3d4d;
+        border-top: 1px solid #6a6a6a;
+        line-height: 1.5;
+        float: none;
+    }
+
+    .headerLinkAzDev {
+        font-size: 15px;
+        font-weight: normal;
+        text-decoration: none;
+        margin: 0px;
+        float: none;
+        background-color: #3e3d4d;
+        border-top: 1px solid #6a6a6a;
+        line-height: 1.5;
+        color: #dedede;
+    }
+
+    .headerLinksA {
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+
+    .headerLinksA .headerLinkAzDev {
+        color: #dedede;
+        text-decoration: none;
+        float: none;
+        padding: 10px;
+        width: 100%;
+        position: relative;
+        display: block;
+    }
+
+    .footerLinksContainer {
+        height: 60px;
+    }
+
+    .footerLinksUL {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
