@@ -1,0 +1,16 @@
+# Static website pipeline
+# https://aka.ms/yaml
+
+trigger:
+- master
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: www
+    artifactName: drop
+    parallel: true
+    parallelCount: 8
