@@ -4,18 +4,18 @@
 
 body {
     background-color: white;
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
     margin: 0px;
 }
 
 /*HEADER*/
 .headerLinksContainer {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
     height: 46px;
 }
 
 .headerLinksContainer {
-    font-family: "Segoe UI";
+    font-family: "Segoe UI",SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
     height: 46px;
     max-width: 1310px;
     margin-left: auto;
@@ -84,7 +84,7 @@ body {
 
 /*FOOTER*/
 .footerLinksContainer {
-    font-family: 'Segoe UI';
+    font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
     width: 100%;
     height: 46px;
     background: #1A1A1F;
@@ -122,7 +122,7 @@ copyright {
 }
 
 .bold-font {
-    font-family: 'segoeUI_B';
+    font-family: 'segoeUI_B',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
 }
 
 .error-wrapper {
